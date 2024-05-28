@@ -10,9 +10,11 @@
 body{
     display: flex;
     justify-content: center;
+    background: url(images/next-level-css-creative-hover-animation-effects-free-download.png);
 }
 
 .container{
+    background-color: rgba(195, 205, 228, 0.92);
     margin-top: 50px;
     width: 300px;
     box-shadow:0px 0px 20px 10px #5F168B;
@@ -25,9 +27,10 @@ h1{
 
 }
 input{
+    border-radius: 15px;
     border: none;
-    border-bottom: 2px solid #5F168B;
-    width: 50%;
+    border: 1px solid #5F168B;
+    width:50%;
     margin-bottom: 20px;
     outline: none;
     padding: 10px;
@@ -36,21 +39,30 @@ input{
 }
 button{
     width: 100%;
-    height: 30px;
+    height: 50px;
     margin-top: 25px;
     border-radius: 20px;
     border: none;
     background-color: #5F168B;
     color: aliceblue;
+    font: bold;
     font-size: 20px;
+
+
+}
+button:hover{
+    background-color: rgb(46, 39, 96);
 }
 #result{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
+    font-weight: bold;
 }
 .end{
-    margin-top: 20px;
-    color: #5F168B;
-    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(45, 38, 98);
+    font-size: 19px;
+    font-weight: bold;
+
 }
